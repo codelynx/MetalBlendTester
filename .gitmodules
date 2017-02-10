@@ -1,0 +1,3 @@
+[submodule "Externals/silvershadow"]
+	path = Externals/silvershadow
+	url = https://github.com/codelynx/silvershadow

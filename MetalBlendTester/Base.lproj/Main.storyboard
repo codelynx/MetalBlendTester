@@ -747,18 +747,6 @@
                                                     <menuItem title="oneMinusBlendAlpha" id="uV0-ZQ-XqB">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="source1Color" id="HUe-Yg-lFF">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSource1Color" id="Cav-K9-ZED">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="source1Alpha" id="QFl-Xe-xVJ">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSource1Alpha" id="L0z-WA-OZi">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
                                                 </items>
                                             </menu>
                                         </popUpButtonCell>
@@ -820,18 +808,6 @@
                                                     <menuItem title="oneMinusBlendAlpha" id="Ej3-bX-ic7">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="source1Color" id="eu2-p4-ZyT">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSource1Color" id="wdV-qI-LP0">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="source1Alpha" id="87M-k1-WJI">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSource1Alpha" id="Viz-Z8-EbR">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
                                                 </items>
                                             </menu>
                                         </popUpButtonCell>
@@ -860,54 +836,45 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="1nx-BO-ULd"/>
                                         </constraints>
-                                        <popUpButtonCell key="cell" type="push" title="one" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="ca0-8Y-nTO" id="JIB-1C-vBX">
+                                        <popUpButtonCell key="cell" type="push" title="zero" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="8Z8-SR-xnO" id="JIB-1C-vBX">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="smallSystem"/>
                                             <menu key="menu" id="VAF-sJ-uMF">
                                                 <items>
-                                                    <menuItem title="one" state="on" id="ca0-8Y-nTO"/>
-                                                    <menuItem title="oneMinusSource1Alpha" id="hKY-Gy-q7W">
+                                                    <menuItem title="zero" id="8Z8-SR-xnO">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="sourceAlpha" id="gnP-0O-PNY">
+                                                    <menuItem title="one" id="ca0-8Y-nTO"/>
+                                                    <menuItem title="sourceColor" id="pgn-24-dtm"/>
+                                                    <menuItem title="oneMinusSourceColor" id="n28-ej-y2o">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="oneMinusBlendColor" id="xTe-vf-n69">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="destinationColor" id="TRr-UJ-7gq">
+                                                    <menuItem title="sourceAlpha" state="on" id="gnP-0O-PNY">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="oneMinusSourceAlpha" id="uoE-v5-lhP">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="source1Color" id="YIk-Zf-Pqd">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="blendAlpha" id="gbb-3a-kPf">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSource1Color" id="UOb-QS-tAB">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSourceColor" id="n28-ej-y2o">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="sourceColor" id="pgn-24-dtm"/>
-                                                    <menuItem title="blendColor" id="vDS-rD-bbZ">
+                                                    <menuItem title="destinationColor" id="TRr-UJ-7gq">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="oneMinusDestinationColor" id="Mtb-hM-Lwj">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
+                                                    <menuItem title="destinationAlpha" id="Vg9-YX-NU8">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
                                                     <menuItem title="oneMinusDestinationAlpha" id="v2K-Ye-enG">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="source1Alpha" id="IuF-TB-Idf">
+                                                    <menuItem title="sourceAlphaSaturated" id="xBr-eQ-E2H"/>
+                                                    <menuItem title="blendColor" id="vDS-rD-bbZ">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="zero" id="xBr-eQ-E2H"/>
-                                                    <menuItem title="destinationAlpha" id="Vg9-YX-NU8">
+                                                    <menuItem title="oneMinusBlendColor" id="xTe-vf-n69">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                    <menuItem title="blendAlpha" id="gbb-3a-kPf">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="oneMinusBlendAlpha" id="Az1-8z-0nL">
@@ -925,54 +892,45 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="100" id="zF2-1W-u7n"/>
                                         </constraints>
-                                        <popUpButtonCell key="cell" type="push" title="one" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="xlt-O5-9md" id="FnQ-f4-rE5">
+                                        <popUpButtonCell key="cell" type="push" title="zero" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="zwU-et-fq5" id="FnQ-f4-rE5">
                                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="smallSystem"/>
                                             <menu key="menu" id="DZD-a7-voc">
                                                 <items>
+                                                    <menuItem title="zero" id="zwU-et-fq5"/>
                                                     <menuItem title="one" state="on" id="xlt-O5-9md"/>
-                                                    <menuItem title="oneMinusSource1Alpha" id="fmX-aX-U3O">
+                                                    <menuItem title="sourceColor" id="KG3-nb-myy"/>
+                                                    <menuItem title="oneMinusSourceColor" id="I2q-1E-ysJ">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="sourceAlpha" id="3z0-2m-7uo">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="oneMinusBlendColor" id="Y25-ST-fsa">
+                                                    <menuItem title="oneMinusSourceAlpha" id="t3Z-P9-y22">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="destinationColor" id="M2q-U0-rZS">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="oneMinusSourceAlpha" id="t3Z-P9-y22">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="source1Color" id="oud-eN-h7q">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="blendAlpha" id="pQv-He-k9N">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSource1Color" id="UmG-iG-nsd">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="oneMinusSourceColor" id="I2q-1E-ysJ">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
-                                                    <menuItem title="sourceColor" id="KG3-nb-myy"/>
-                                                    <menuItem title="blendColor" id="6qp-n3-o9K">
-                                                        <modifierMask key="keyEquivalentModifierMask"/>
-                                                    </menuItem>
                                                     <menuItem title="oneMinusDestinationColor" id="j8t-XQ-eHx">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                    <menuItem title="destinationAlpha" id="zWm-Qc-39p">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="oneMinusDestinationAlpha" id="usD-T3-ZbU">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="source1Alpha" id="n05-V5-YZU">
+                                                    <menuItem title="sourceAlphaSaturated" id="fmX-aX-U3O">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
-                                                    <menuItem title="zero" id="zwU-et-fq5"/>
-                                                    <menuItem title="destinationAlpha" id="zWm-Qc-39p">
+                                                    <menuItem title="blendColor" id="6qp-n3-o9K">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                    <menuItem title="oneMinusBlendColor" id="Y25-ST-fsa">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                    <menuItem title="blendAlpha" id="pQv-He-k9N">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
                                                     </menuItem>
                                                     <menuItem title="oneMinusBlendAlpha" id="237-4X-zQg">

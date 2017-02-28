@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0295D73EE71679384E1E2237E28EE14C0ABE0668",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0295D73EE71679384E1E2237E28EE14C0ABE0668" : 9223372036854775807,
+    "3F33ADC2C9669ACCDE4E016A1B38995395D766A9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A84FA139-1429-4A9C-93ED-EC5BA95C786A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0295D73EE71679384E1E2237E28EE14C0ABE0668" : "MetalBlendTester\/",
+    "3F33ADC2C9669ACCDE4E016A1B38995395D766A9" : "MetalBlendTester\/Externals\/silvershadow\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MetalBlendTester",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MetalBlendTester.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/codelynx\/MetalBlendTester.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0295D73EE71679384E1E2237E28EE14C0ABE0668"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/codelynx\/silvershadow",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3F33ADC2C9669ACCDE4E016A1B38995395D766A9"
+    }
+  ]
+}

@@ -139,7 +139,8 @@ class BlendTesterRenderer: Renderer {
 		var uniforms = Uniforms(transform: transform)
 		let uniformsBuffer = device.makeBuffer(bytes: &uniforms, length: MemoryLayout<Uniforms>.size, options: MTLResourceOptions())
 		
-		let encoder = context.makeRenderCommandEncoder()
+		let commandBuffer = context.makeCommandBuffer()
+		let encoder = commandBuffer.makeRenderCommandEncoder(descriptor: context.renderPassDescriptor)
 		
 		encoder.setRenderPipelineState(self.renderPipelineState)
 
@@ -154,6 +155,7 @@ class BlendTesterRenderer: Renderer {
 		encoder.drawPrimitives(type: .triangle, vertexStart: 0, vertexCount: vertexBuffer.count)
 
 		encoder.endEncoding()
+		commandBuffer.commit()
 	}
 
 	func renderImage(context: RenderContext, texture: MTLTexture, in rect: Rect) {
